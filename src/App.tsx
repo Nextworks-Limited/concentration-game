@@ -1,10 +1,10 @@
+import Lobby from "./pages/lobby";
+// import Login from "./pages/login";
 
 function App() {
     return (
-        <h1>
-            Hello world
-        </h1>
-    )  
+        <Lobby/>
+    );  
 }
 
 export default App

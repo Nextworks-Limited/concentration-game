@@ -1,11 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+
+  --oxford-blue: hsla(228, 41%, 11%, 1);
+  --black: hsla(0, 0%, 0%, 1);
+  --rich-black: hsla(231, 77%, 5%, 1);
+  --antiflash-white: hsla(214, 37%, 96%, 1);
+  --persian-blue: hsla(229, 63%, 41%, 1);
+  --egyptian-blue: hsla(228, 60%, 32%, 1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +44,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-size: 16px;
 }
 
 h1 {
@@ -54,7 +71,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -65,4 +82,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
