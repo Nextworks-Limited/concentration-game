@@ -1,27 +1,19 @@
 import { useNavigate } from "react-router";
-import Button from "../components/button";
 import Logo from "../components/Logo";
+import Input from "../components/Input";
 
 function Login() {
     const navigate = useNavigate();
     return (
         <main className="container root-center">
             <Logo/>
-            <form className="input-wrapper" onSubmit={(e)=>{
+            <form onSubmit={(e)=>{
                 e.preventDefault();
 
                 navigate("/lobby");
 
             }}>
-                <label htmlFor="username-input">
-                    <span className="sr-only">Enter your username</span>
-                    <input
-                        id="username-input"
-                        type="text"
-                        placeholder="Enter your username"
-                    />
-                    <Button text="Enter"/>
-                </label>
+                <Input/>
             </form>
         </main>
     );
