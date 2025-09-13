@@ -113,19 +113,15 @@
     width: 1rem;
     height: 1rem;
     /* background-color: red; */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .icon.download-icon {
     background-image: url("/Load_circle_duotone.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    
 }
 .icon.link-icon {
     background-image: url("/link_alt.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    
 }
 
 /* 
