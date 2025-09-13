@@ -1,9 +1,10 @@
+import Button from "../components/button";
+import Logo from "../components/Logo";
+
 function Login() {
     return (
         <main className="container root-center">
-            <div className="logo">
-                <img src="/Logo.svg" alt="Logo" />
-            </div>
+            <Logo/>
             <form className="input-wrapper">
                 <label htmlFor="username-input">
                     <span className="sr-only">Enter your username</span>
@@ -12,7 +13,7 @@ function Login() {
                         type="text"
                         placeholder="Enter your username"
                     />
-                    <button>Enter</button>
+                    <Button text="Enter"/>
                 </label>
             </form>
         </main>
